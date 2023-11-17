@@ -14,3 +14,17 @@ body {
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.container {
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.time {
+    padding: 1rem 0;
+    font-size: 2rem;
+}
