@@ -42,13 +42,14 @@ window.onload = function() {
         }
     }
 
-
     startBtn.onclick = () => {
         clearInterval(Interval)
         Interval = setInterval(startTimer, 10)
     }
 
-
+    stopBtn.onclick = () => {
+        clearInterval(Interval)
+    }
 
 
 
